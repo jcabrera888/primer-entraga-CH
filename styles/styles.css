@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet");
+
+body {
+    background-color: #2D3F54;
+}
+
+ul {
+    list-style: none;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+/*frase de slogan en "nosotros"*/
+.phrase {
+    list-style: none;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*Titulos de los parrafos en home*/
+.ptitulo {
+    text-decoration: underline;
+    font-size: large;
+}
+
+a {
+    color: #3C93FA;
+    text-decoration: none;
+}
+
+h1 {
+    color: #3C93FA;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+/*Propiedad de padre y heredada por lo interno. 
+Por ejemplo todo el text dentro de main tiene la font*/
+main {
+    background-color: #3C93FA;
+    color: #2D3F54;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.contactinfo {
+    background-color: #028183;
+}
+
+.contactphrase {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
